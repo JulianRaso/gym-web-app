@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Index() {
+export default function HomePage() {
   return (
     <div style={{
         width: '100vw',

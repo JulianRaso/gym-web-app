@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './NavStyles.css'
 import logo from '../../public/logo.png'
-import profileLogo from '../../public/pngegg.png'
+import LoginBar from '../LoginBar/LoginBar'
 
 export default function Navbar() {
   return (
@@ -16,15 +16,7 @@ export default function Navbar() {
             <Link to={'/employees'} id='nav'>Empleados</Link>
             <Link to={'/payments'} id='nav'>Pagos</Link>
         </nav>
-        <div id='footer' style={{borderTop: '1px solid lightgray', width: 'fit-content'}}>
-          <img src={profileLogo} style={{width: '80px', height: '80px', marginTop: '12px',marginBottom: '12px',position: 'relative',left: '25%'}} alt='perfil-logo'/>
-
-          <div>
-            <Link to={'/SignIn'} id='sign'>Ingresar</Link>
-            <Link to={'/SignOut'} id='sign'>Registrarte</Link>
-          </div>
-          
-        </div>
+        <LoginBar/>
     </div>
   )
 }

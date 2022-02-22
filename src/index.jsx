@@ -1,5 +1,5 @@
 import { render } from 'react-dom'
-import RouterNavSystem from './components/Routes/Routes'
+import RouterNavSystem from './Routes/Routes'
 import './index.css';
 
 
