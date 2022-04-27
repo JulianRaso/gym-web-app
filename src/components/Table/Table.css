@@ -1,0 +1,25 @@
+.table {
+    padding: 8px;
+    width: 100vw;
+    
+}
+
+table{
+    padding: 16px;
+    width: 100%;
+}
+
+th, td{
+    padding: 8px;
+}
+
+tr {
+    padding: 8px;
+    text-align: center;
+    height: 16px;
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}

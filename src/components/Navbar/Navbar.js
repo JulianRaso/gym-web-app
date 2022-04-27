@@ -16,7 +16,7 @@ export default function Navbar() {
             <Link to={'/employees'} id='nav'>Empleados</Link>
             <Link to={'/payments'} id='nav'>Pagos</Link>
         </nav>
-        <LoginBar/>
     </div>
   )
 }
+

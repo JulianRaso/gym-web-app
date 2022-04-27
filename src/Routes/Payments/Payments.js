@@ -18,6 +18,7 @@ export default function Payments() {
           <div>Apellido:</div>
         </div>
         
+        <div style={{marginTop: '16px', fontWeight: 'bold', fontSize: 'larger'}}>Valor de la Cuota: $1750</div>
 
         <h2 style={{marginTop:'16px'}}>Formas de pago</h2>
         <div className="paymentsContainer">

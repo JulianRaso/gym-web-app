@@ -44,4 +44,5 @@ img {
 #footer {
     position: absolute;
     bottom: 16px;
+    text-align: center;
 }
